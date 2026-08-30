@@ -59,6 +59,7 @@ export const translations = {
 
     // Life at School & Media
     'video.heading': 'School Campus & Student Activities',
+    'teachers.sectionHeading': 'Our Teachers & Staff',
     'highlights.heading': 'School & Student Highlights',
 
     // About Page
@@ -167,6 +168,7 @@ export const translations = {
 
     // Life at School & Media
     'video.heading': 'विद्यालय परिसर तथा विद्यार्थी गतिविधिहरू',
+    'teachers.sectionHeading': 'हाम्रा शिक्षक तथा कर्मचारीहरू',
     'highlights.heading': 'विद्यालय तथा विद्यार्थी गतिविधिहरू',
 
     // About Page
