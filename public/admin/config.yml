@@ -1,18 +1,18 @@
 backend:
   name: github
-  repo: balikaschool/balikaschool.github.io
+  repo: panchakanya/panchakanya.github.io
   branch: main
   auth_methods: [token]
-  base_url: https://balikaschool.github.io
+  base_url: https://panchakanya.github.io
 
 media_folder: "src/assets/uploads"
 public_folder: "/src/assets/uploads"
 
 logo:
-  src: https://balikaschool.github.io/admin/balika.png
+  src: https://panchakanya.github.io/admin/panchakanya.jpg
   show_in_header: true
 
-app_title: Balika School CMS
+app_title: Panchakanya School CMS
 
 collections:
   - name: notices
