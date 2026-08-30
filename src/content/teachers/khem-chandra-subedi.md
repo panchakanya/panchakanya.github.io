@@ -1,7 +1,7 @@
 ---
 name: Khem Chandra Subedi
 designation: Principal
-photo: ../../assets/teachers/khem-sir.jpg
+photo: ../../assets/teachers/IMG_20200606_194915.jpg
 subject: Nepali
 phone: +977-9842175043
 address: Dharan 17, Railway, Sunsari
