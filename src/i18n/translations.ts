@@ -30,6 +30,10 @@ export const translations = {
     // Academic Programs Section
     'programs.tag': 'Affiliated with NEB & Ministry of Education',
     'programs.heading': 'Academic Programs Offered',
+    'programs.basic.title': 'Basic & Secondary Education (ECD – Grade 10)',
+    'programs.basic.level': 'Primary & Secondary',
+    'programs.basic.desc': 'Comprehensive, nurturing education from Early Childhood Development (ECD) up to Grade 10 (SEE) with modern science labs & ECA.',
+    'programs.basic.tags': 'ECD to Class 10 · Science & Multimedia Lab · Holistic ECA',
     'programs.management.title': 'Ten Plus Two (+2) Management',
     'programs.management.level': 'Higher Secondary (+2)',
     'programs.management.desc': 'Prepares young students with fundamental leadership, accounting, computer science, and managerial skills for higher studies & careers.',
@@ -38,10 +42,10 @@ export const translations = {
     'programs.education.level': 'Higher Secondary (+2)',
     'programs.education.desc': 'Fosters pedagogical expertise, child psychology, social studies, and communication skills for future academic leaders.',
     'programs.education.tags': 'Teaching Practice · Child Psychology · Expert Faculty',
-    'programs.basic.title': 'Basic & Secondary Education (ECD – Grade 10)',
-    'programs.basic.level': 'Primary & Secondary',
-    'programs.basic.desc': 'Comprehensive, nurturing education from Early Childhood Development (ECD) up to Grade 10 (SEE) with modern science labs & ECA.',
-    'programs.basic.tags': 'ECD to Class 10 · Science & Multimedia Lab · Holistic ECA',
+    'programs.humanities.title': 'Ten Plus Two (+2) Humanities & Social Sciences',
+    'programs.humanities.level': 'Higher Secondary (+2)',
+    'programs.humanities.desc': 'Fosters critical thinking, social studies, history, journalism, and language skills for future creative and social leaders.',
+    'programs.humanities.tags': 'NEB Affiliated · Social Sciences · Language & Arts',
 
     // Notices Section & Categories
     'notices.heading': 'Latest announcements & notices',
@@ -139,6 +143,10 @@ export const translations = {
     // Academic Programs Section
     'programs.tag': 'राष्ट्रिय परीक्षा बोर्ड (NEB) सम्बन्धन प्राप्त तथा शिक्षा मन्त्रालय स्वीकृत',
     'programs.heading': 'उपलब्ध शैक्षिक कार्यक्रमहरू',
+    'programs.basic.title': 'आधारभूत तथा माध्यमिक शिक्षा (ECD – कक्षा १०)',
+    'programs.basic.level': 'प्राथमिक तथा माध्यमिक',
+    'programs.basic.desc': 'प्रारम्भिक बाल विकास (ECD) देखि एस.इ.इ. (SEE) सम्मको उत्कृष्ट, व्यावहारिक र बहुआयामिक माध्यमिक शिक्षा।',
+    'programs.basic.tags': 'ECD देखि १० सम्म · विज्ञान प्रयोगशाला · अतिरिक्त क्रियाकलाप',
     'programs.management.title': '१०+२ व्यवस्थापन',
     'programs.management.level': 'उच्च माध्यमिक (+२)',
     'programs.management.desc': 'विद्यार्थीहरूलाई नेतृत्व, व्यवस्थापकीय दक्षता, लेखा र कम्प्युटर विज्ञान सम्बन्धी व्यावहारिक ज्ञान प्रदान गर्ने कार्यक्रम।',
@@ -147,10 +155,10 @@ export const translations = {
     'programs.education.level': 'उच्च माध्यमिक (+२)',
     'programs.education.desc': 'भविष्यका उत्कृष्ट शिक्षक तथा शैक्षिक नेतृत्व निर्माणका लागि शिक्षण विधि, समाजशास्त्र र बाल मनोविज्ञानमा आधारित शिक्षा।',
     'programs.education.tags': 'प्रयोगात्मक शिक्षण · बाल मनोविज्ञान · दक्ष प्राध्यापक',
-    'programs.basic.title': 'आधारभूत तथा माध्यमिक शिक्षा (ECD – कक्षा १०)',
-    'programs.basic.level': 'प्राथमिक तथा माध्यमिक',
-    'programs.basic.desc': 'प्रारम्भिक बाल विकास (ECD) देखि एस.इ.इ. (SEE) सम्मको उत्कृष्ट, व्यावहारिक र बहुआयामिक माध्यमिक शिक्षा।',
-    'programs.basic.tags': 'ECD देखि १० सम्म · विज्ञान प्रयोगशाला · अतिरिक्त क्रियाकलाप',
+    'programs.humanities.title': '१०+२ मानविकी तथा सामाजिक शास्त्र',
+    'programs.humanities.level': 'उच्च माध्यमिक (+२)',
+    'programs.humanities.desc': 'विद्यार्थीहरूलाई समाजशास्त्र, पत्रकारिता, भाषा र सामाजिक चेतना सम्बन्धी बहुआयामिक ज्ञान प्रदान गर्ने कार्यक्रम।',
+    'programs.humanities.tags': 'NEB सम्बन्धन · समाजशास्त्र · भाषा तथा कला',
 
     // Notices Section & Categories
     'notices.heading': 'भर्खरैका सूचना तथा समाचारहरू',

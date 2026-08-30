@@ -47,6 +47,12 @@ export const site = {
 
   courses: [
     {
+      title: 'Basic & Secondary Education (ECD – Grade 10)',
+      stream: 'General Academics',
+      level: 'Primary & Secondary',
+      description: 'Comprehensive curriculum from Early Childhood Development to SEE, focusing on empowering students through holistic learning.',
+    },
+    {
       title: 'Ten Plus Two (+2) Management',
       stream: 'Management',
       level: 'Higher Secondary (+2)',
@@ -59,10 +65,10 @@ export const site = {
       description: 'Fosters pedagogical expertise, child development awareness, and communication skills for future educators and academic leaders.',
     },
     {
-      title: 'Basic & Secondary Education (ECD – Grade 10)',
-      stream: 'General Academics',
-      level: 'Primary & Secondary',
-      description: 'Comprehensive curriculum from Early Childhood Development to SEE, focusing on empowering students through holistic learning.',
+      title: 'Ten Plus Two (+2) Humanities & Social Sciences',
+      stream: 'Humanities',
+      level: 'Higher Secondary (+2)',
+      description: 'Develops critical thinking, social awareness, history, political science, and language skills for students pursuing arts and social science fields.',
     },
   ],
 

@@ -22,6 +22,12 @@ const highlights = (await getCollection('highlights')).sort(
 
 const programI18nKeys = [
   {
+    levelKey: 'programs.basic.level',
+    titleKey: 'programs.basic.title',
+    descKey: 'programs.basic.desc',
+    tagsKey: 'programs.basic.tags',
+  },
+  {
     levelKey: 'programs.management.level',
     titleKey: 'programs.management.title',
     descKey: 'programs.management.desc',
@@ -34,10 +40,10 @@ const programI18nKeys = [
     tagsKey: 'programs.education.tags',
   },
   {
-    levelKey: 'programs.basic.level',
-    titleKey: 'programs.basic.title',
-    descKey: 'programs.basic.desc',
-    tagsKey: 'programs.basic.tags',
+    levelKey: 'programs.humanities.level',
+    titleKey: 'programs.humanities.title',
+    descKey: 'programs.humanities.desc',
+    tagsKey: 'programs.humanities.tags',
   },
 ];
 ---
@@ -210,12 +216,13 @@ const programI18nKeys = [
     }
   }
 
-  /* Academic Programs Grid of Thirds */
+  /* Academic Programs Grid */
   .programs-section {
     padding-block: var(--space-5);
   }
 
-  .section-header {
+  .programs-section .section-header {
+    text-align: center;
     margin-bottom: var(--space-4);
   }
 
@@ -231,9 +238,10 @@ const programI18nKeys = [
 
   .program-grid-thirds {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: var(--space-4);
     width: 100%;
+    justify-content: center;
   }
 
   .program-box {
@@ -287,7 +295,13 @@ const programI18nKeys = [
     border-top: 1px dashed color-mix(in srgb, var(--accent) 25%, transparent);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
+    .program-grid-thirds {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
     .program-grid-thirds {
       grid-template-columns: 1fr;
     }
