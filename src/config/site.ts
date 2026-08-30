@@ -3,15 +3,17 @@
  * live here. Swapping placeholder → final means editing THIS file only.
  */
 export const site = {
-  name: "Shree Sharada Balika Namuna Secondary School",
-  nepaliName: "श्री शारदा बालिका नमुना माध्यमिक विद्यालय, सुनसरी",
-  location: 'Dharan-16, Sunsari, Nepal',
-  email: 'info@sharadabalika.edu.np',
-  phones: ['025-520962', '9842054429'],
-  estYear: '1948 AD (2005 BS)',
+  name: "Shree Panchakanya Secondary School",
+  nepaliName: "श्री पञ्चकन्या माध्यमिक विद्यालय, सुनसरी",
+  principal: "Khem Chandra Subedi",
+  nepaliPrincipal: "खेम चन्द्र सुवेदी",
+  location: 'Dharan 17, Railway, Sunsari, Nepal',
+  email: 'info@panchakanyadharan.edu.np',
+  phones: ['+977-9842175043'],
+  estYear: '2032 BS (1975 AD)',
 
   description:
-    "Shree Sharada Balika Namuna Secondary School (श्री शारदा बालिका नमुना माध्यमिक विद्यालय) was established in 1948 AD (2005 BS) in Dharan-16, Sunsari, Nepal. An premier all-girls community-based institution affiliated with the National Examination Board (NEB) offering ECD to Grade 10 and Ten Plus Two (+2) in Management and Education.",
+    "Shree Panchakanya Secondary School (श्री पञ्चकन्या माध्यमिक विद्यालय) was established in 2032 BS (1975 AD) in Dharan 17, Railway, Sunsari, Nepal. A premier government community institution affiliated with the National Examination Board (NEB) offering ECD to Grade 10 and Ten Plus Two (+2) in Management and Education for all students.",
 
   nav: [
     { label: 'Home', href: '/' },
@@ -26,8 +28,8 @@ export const site = {
   youtubeStoryVideoId: '20NugF8viUM',
 
   social: {
-    facebook: 'https://www.facebook.com/people/Shree-Sharada-Balika-Namuna-Secondary-School/100084429066857/',
-    map: 'https://maps.app.goo.gl/vjXjs3914iKBhmpg8',
+    facebook: 'https://www.facebook.com/profile.php?id=61577109099040',
+    map: 'https://maps.app.goo.gl/ztcfSKdDPCAW9U9BA',
   },
 
   facilities: [
@@ -36,10 +38,8 @@ export const site = {
     'Library',
     'Multimedia Rooms',
     'Cafeteria',
-    'Sports & Playground',
     'Transportation',
     'Counseling Services',
-    'Dance & Music Studios',
     'Scholarship Schemes',
     'Educational Tours & ECA',
     'School Journal',
@@ -50,7 +50,7 @@ export const site = {
       title: 'Ten Plus Two (+2) Management',
       stream: 'Management',
       level: 'Higher Secondary (+2)',
-      description: 'Prepares young women with fundamental leadership, business, accounting, and managerial skills for higher studies and careers.',
+      description: 'Prepares young students with fundamental leadership, business, accounting, and managerial skills for higher studies and careers.',
     },
     {
       title: 'Ten Plus Two (+2) Education',
@@ -62,44 +62,44 @@ export const site = {
       title: 'Basic & Secondary Education (ECD – Grade 10)',
       stream: 'General Academics',
       level: 'Primary & Secondary',
-      description: 'Comprehensive curriculum from Early Childhood Development to SEE, focusing on empowering female students through holistic learning.',
+      description: 'Comprehensive curriculum from Early Childhood Development to SEE, focusing on empowering students through holistic learning.',
     },
   ],
 
   copy: {
     home: {
-      heroHeadline: 'Empowering Young Women Since 1948',
+      heroHeadline: 'Quality Education for All Students Since 2032 BS',
       heroSub:
-        "Shree Sharada Balika Namuna Secondary School is a model all-girls community institution in Dharan-16, Sunsari. Affiliated with the NEB and approved by the Ministry of Education, we provide quality education with moderate fees and dedicated scholarships.",
+        "Shree Panchakanya Secondary School is a model government community institution in Dharan 17, Railway, Sunsari. Affiliated with the NEB and approved by the Ministry of Education, we provide quality education for all students with dedicated scholarship schemes.",
       featuredHeading: 'Latest announcements & notices',
-      videoHeading: 'School Campus & Periphery Overview',
-      highlightsHeading: 'School & Student Activities',
+      videoHeading: 'School Campus & Student Activities',
+      highlightsHeading: 'School & Student Highlights',
     },
 
     about: {
-      title: 'About Shree Sharada Balika Namuna Secondary School',
+      title: 'About Shree Panchakanya Secondary School',
       intro:
-        'Established in 1948 AD (2005 BS), Shree Sharada Balika Namuna Secondary School is a community-based all-girls educational institution located in Dharan-16, Sunsari, Nepal. We are affiliated with the National Examination Board (NEB) and approved by the Ministry of Education.',
+        'Established in 2032 BS (1975 AD), Shree Panchakanya Secondary School is a government community-based educational institution located in Dharan 17, Railway, Sunsari, Nepal. Under the leadership of Principal Khem Chandra Subedi, we are affiliated with the National Examination Board (NEB) and approved by the Ministry of Education.',
       sections: [
         {
-          heading: 'Our legacy & establishment',
+          heading: 'Our establishment & legacy',
           paragraphs: [
-            'Founded in 2005 BS (1948 AD), Shree Sharada Balika Namuna Secondary School stands as one of the oldest and most respected community schools in eastern Nepal.',
-            'As an institution dedicated exclusively to female education, no boys are enrolled. Our core mission has always been to break socio-economic barriers and empower young women through accessible, high-quality learning.',
+            'Founded in 2032 BS (1975 AD), Shree Panchakanya Secondary School stands as a trusted government community school in Dharan 17, Railway, Sunsari.',
+            'Our institution provides inclusive co-educational learning for all students (छात्र तथा छात्राहरू / विद्यार्थीहरू), breaking socio-economic barriers through accessible, high-quality education.',
           ],
         },
         {
           heading: 'Academic streams & affiliation',
           paragraphs: [
             'The school offers comprehensive educational programs from Early Childhood Development (ECD) through Grade 10, as well as Ten Plus Two (+2) programs in Management and Education streams.',
-            'Fully approved by the Ministry of Education, Nepal, and affiliated with the National Examination Board (NEB), our graduates excel consistently in higher secondary examinations and university entrance assessments.',
+            'Fully approved by the Ministry of Education, Nepal, and affiliated with the National Examination Board (NEB), our students excel consistently in national examinations and higher secondary studies.',
           ],
         },
         {
           heading: 'Facilities & student support',
           paragraphs: [
-            'Our school in Dharan-16 features modern science and computer laboratories, a well-stocked library, multimedia classrooms, music and dance studios, cafeteria, and sports grounds.',
-            'We maintain moderate, accessible fee structures alongside merit-based and need-based scholarship schemes to ensure no deserving female student is denied an education.',
+            'Our school features modern science and computer laboratories, a well-stocked library, multimedia classrooms, cafeteria, and student counseling services.',
+            'As a government school, we maintain accessible fee structures alongside merit-based and need-based scholarship schemes to ensure every student receives quality education.',
           ],
         },
       ],
@@ -108,7 +108,7 @@ export const site = {
     notices: {
       title: 'Notices & Announcements',
       intro:
-        'Official updates from Shree Sharada Balika Namuna Secondary School — SEE & +2 exam routines, admission notices, holiday schedules, and student events in Dharan.',
+        'Official updates from Shree Panchakanya Secondary School — SEE & +2 exam routines, admission notices, holiday schedules, and student events in Dharan.',
       emptyMessage:
         'No active notices at the moment. Please check back later.',
     },
@@ -116,7 +116,7 @@ export const site = {
     teachers: {
       title: 'Faculty & Administration',
       intro:
-        'Meet our experienced educators and leadership team in Dharan, Sunsari, who guide our students with dedication and care.',
+        'Meet our experienced educators and leadership team led by Principal Khem Chandra Subedi in Dharan 17, Railway, Sunsari.',
       memorialHeading: 'Former Teachers & Staff',
       memorialBlurb: 'Honoring our former teachers, leadership, and staff members who contributed to the school\'s legacy.',
     },
@@ -124,7 +124,7 @@ export const site = {
     contact: {
       title: 'Contact Us',
       intro:
-        'Have questions about admissions for +2 Management, +2 Education, or school enrollment? Reach out to our administrative office in Dharan-16, Sunsari.',
+        'Have questions about admissions for +2 Management, +2 Education, or school enrollment? Reach out to our administrative office in Dharan 17, Railway, Sunsari.',
       formHeading: 'Send a message to administration',
     },
 

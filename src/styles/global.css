@@ -108,16 +108,20 @@ a:hover {
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 25%, transparent);
 }
 
 .btn--primary {
   background: var(--cta-bg);
   color: var(--cta-text);
+  border: 1px solid var(--cta-bg);
 }
 
 .btn--primary:hover {
   background: var(--text-body);
   color: var(--cta-text);
+  border-color: var(--text-body);
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--text-body) 20%, transparent);
 }
 
 .btn--small {
@@ -128,11 +132,13 @@ a:hover {
 .btn--secondary {
   background: var(--secondary-bg);
   color: var(--secondary-text);
+  border: 1px solid var(--secondary-bg);
 }
 
 .btn--secondary:hover {
   background: var(--text-body);
   color: var(--secondary-text);
+  border-color: var(--text-body);
 }
 
 .skip-link {

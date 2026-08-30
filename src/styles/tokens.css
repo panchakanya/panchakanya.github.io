@@ -1,47 +1,44 @@
 /*
-  Design tokens — brief §6a "Rustic Earthy Tones".
-  THE ONLY PLACE A COLOR MAY BE DEFINED. Never hand-pick a hex anywhere else.
+  Design tokens — Classical Navy & School Gold Theme.
+  High-contrast, institutional, serious academic styling.
 
   Approved text pairings, verified by scripts/check-contrast.mjs on every build:
-    Ebony on Cream (body text)      White on Coffee Bean (primary CTA)
-    Cream on Ebony (dark sections)  White on Dusty Olive (secondary button)
-    Coffee Bean on Cream (text links)
-
-  Camel is decorative only (tags, borders, hover) — never text.
-  Dusty Olive is fill-only: white text ON it passes AA, but olive text on
-  cream measures ~4.2:1 (below AA) — text links on light backgrounds use
-  Coffee Bean instead.
+    Navy text on Slate Cream body (#0F172A on #F8FAFC)
+    White text on Dark Navy header & footer (#FFFFFF on #0F172A)
+    White text on Royal Navy primary CTA (#FFFFFF on #1E3A8A)
+    White text on Golden Amber secondary button (#FFFFFF on #B45309)
+    Royal Navy links on Light Cream background (#1E3A8A on #F8FAFC)
 */
 :root {
   /* palette */
-  --color-cream: #FAF7F2;  /* Soft warm alabaster cream background */
-  --color-ebony: #1E2E2D;  /* Dark Spruce/Ebony - body text / dark sections */
-  --color-coffee: #00706E; /* Deep Teal/Turquoise - primary CTA / uniform match */
-  --color-olive: #A23B24;  /* Terracotta Red - secondary button / building brick match */
-  --color-camel: #00A3A0;  /* Vibrant Teal/Turquoise - accent/decor match */
+  --color-cream: #F8FAFC;   /* Crisp Light Slate Cream background */
+  --color-navy: #0F172A;    /* Rich Deep Navy Header & Dark Sections */
+  --color-royal: #1E3A8A;   /* Royal Navy Blue - Primary CTAs & links */
+  --color-amber: #B45309;   /* Warm Golden Amber - Accent CTAs & highlight buttons */
+  --color-gold: #F59E0B;    /* Bright School Gold - Badges, accents, active states */
   --color-white: #FFFFFF;
 
   /* roles */
   --bg-page: var(--color-cream);
-  --bg-dark: var(--color-ebony);
-  --text-body: var(--color-ebony);
-  --text-on-dark: var(--color-cream);
-  --cta-bg: var(--color-coffee);
+  --bg-header: var(--color-navy);
+  --bg-dark: var(--color-navy);
+  --text-body: var(--color-navy);
+  --text-on-dark: var(--color-white);
+  --cta-bg: var(--color-royal);
   --cta-text: var(--color-white);
-  --secondary-bg: var(--color-olive);
+  --secondary-bg: var(--color-amber);
   --secondary-text: var(--color-white);
-  --link: var(--color-coffee);
-  --accent: var(--color-camel);
+  --link: var(--color-royal);
+  --accent: var(--color-gold);
+  --accent-dark: var(--color-amber);
 
   /* type */
-  /* Lora replaced Fraunces 2026-07-12 (owner: Fraunces' hooked lowercase f is
-     a fixed design quirk of that typeface — no axis or feature removes it) */
   --font-display: 'Lora Variable', Georgia, 'Times New Roman', serif;
   --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
 
-  /* shape (§6d) */
+  /* shape */
   --radius-card: 12px;
-  --border-hairline: 1px solid color-mix(in srgb, var(--color-camel) 55%, transparent);
+  --border-hairline: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
 
   /* spacing */
   --space-1: 0.25rem;

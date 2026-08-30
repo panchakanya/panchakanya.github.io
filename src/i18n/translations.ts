@@ -1,5 +1,5 @@
 /**
- * Centralized i18n Dictionary for Shree Sharada Balika Namuna Secondary School
+ * Centralized i18n Dictionary for Shree Panchakanya Secondary School
  * Contains full English and Nepali translations for all static UI elements.
  */
 
@@ -14,16 +14,16 @@ export const translations = {
     'nav.langToggle': 'नेपाली',
 
     // Site Identity
-    'site.name': 'Shree Sharada Balika Namuna Secondary School',
-    'site.headerName': '<span class="brand-name">Shree Sharada Balika Namuna</span><span class="brand-sub">Secondary School</span>',
-    'site.nepaliName': 'Shree Sharada Balika Namuna Secondary School',
-    'site.location': 'Dharan-16, Sunsari, Nepal',
+    'site.name': 'Shree Panchakanya Secondary School',
+    'site.headerName': '<span class="brand-name">Shree Panchakanya</span><span class="brand-sub">Secondary School</span>',
+    'site.nepaliName': 'Shree Panchakanya Secondary School',
+    'site.location': 'Dharan 17, Railway, Sunsari, Nepal',
 
     // Hero Section
-    'hero.badge': 'Model All-Girls Institution · Dharan-16, Sunsari',
-    'hero.headline': 'Empowering Young Women Since 1948',
+    'hero.badge': 'Government Secondary School · Dharan 17, Railway, Sunsari',
+    'hero.headline': 'Quality Education for All Students Since 2032 BS',
     'hero.sub':
-      'Shree Sharada Balika Namuna Secondary School is a model all-girls community institution in Dharan-16, Sunsari. Affiliated with the NEB and approved by the Ministry of Education, we provide quality education with moderate fees and dedicated scholarships.',
+      'Shree Panchakanya Secondary School is a premier government community institution in Dharan 17, Railway, Sunsari. Affiliated with the NEB and approved by the Ministry of Education, we provide quality education for all students with dedicated scholarship schemes.',
     'hero.btnNotices': 'View notices',
     'hero.btnContact': 'Contact us',
 
@@ -32,7 +32,7 @@ export const translations = {
     'programs.heading': 'Academic Programs Offered',
     'programs.management.title': 'Ten Plus Two (+2) Management',
     'programs.management.level': 'Higher Secondary (+2)',
-    'programs.management.desc': 'Prepares young women with fundamental leadership, accounting, computer science, and managerial skills for higher studies & careers.',
+    'programs.management.desc': 'Prepares young students with fundamental leadership, accounting, computer science, and managerial skills for higher studies & careers.',
     'programs.management.tags': 'NEB Affiliated · Computer & Accounting Lab · Scholarship',
     'programs.education.title': 'Ten Plus Two (+2) Education',
     'programs.education.level': 'Higher Secondary (+2)',
@@ -48,7 +48,7 @@ export const translations = {
     'notices.seeAll': 'See all notices →',
     'notices.empty': 'No active notices at the moment. Please check back later.',
     'notices.title': 'Notices & Announcements',
-    'notices.intro': 'Official updates from Shree Sharada Balika Namuna Secondary School — SEE & +2 exam routines, admission notices, holiday schedules, and student events in Dharan.',
+    'notices.intro': 'Official updates from Shree Panchakanya Secondary School — SEE & +2 exam routines, admission notices, holiday schedules, and student events in Dharan.',
 
     'cat.holiday': 'Holiday',
     'cat.admission': 'Admission',
@@ -58,36 +58,36 @@ export const translations = {
     'cat.pinned': '📌 Pinned',
 
     // Life at School & Media
-    'video.heading': 'School Campus & Periphery Overview',
+    'video.heading': 'School Campus & Student Activities',
     'highlights.heading': 'School & Student Highlights',
 
     // About Page
-    'about.title': 'About Shree Sharada Balika Namuna Secondary School',
+    'about.title': 'About Shree Panchakanya Secondary School',
     'about.intro':
-      'Established in 1948 AD (2005 BS), Shree Sharada Balika Namuna Secondary School is a community-based all-girls educational institution located in Dharan-16, Sunsari, Nepal. We are affiliated with the National Examination Board (NEB) and approved by the Ministry of Education.',
-    'about.legacyTitle': 'Our legacy & establishment',
+      'Established in 2032 BS (1975 AD), Shree Panchakanya Secondary School is a government community-based educational institution located in Dharan 17, Railway, Sunsari, Nepal. Under the leadership of Principal Khem Chandra Subedi, we are affiliated with the National Examination Board (NEB) and approved by the Ministry of Education.',
+    'about.legacyTitle': 'Our establishment & legacy',
     'about.legacyP1':
-      'Founded in 2005 BS (1948 AD), Shree Sharada Balika Namuna Secondary School stands as one of the oldest and most respected community schools in eastern Nepal.',
+      'Founded in 2032 BS (1975 AD), Shree Panchakanya Secondary School stands as a trusted government community school in Dharan 17, Railway, Sunsari.',
     'about.legacyP2':
-      'As an institution dedicated exclusively to female education, no boys are enrolled. Our core mission has always been to break socio-economic barriers and empower young women through accessible, high-quality learning.',
+      'Our institution provides inclusive co-educational learning for all students (boys and girls / छात्र तथा छात्राहरू / विद्यार्थीहरू). Our core mission is to break socio-economic barriers and empower young minds through accessible, high-quality learning.',
     'about.academicTitle': 'Academic streams & affiliation',
     'about.academicP1':
       'The school offers comprehensive educational programs from Early Childhood Development (ECD) through Grade 10, as well as Ten Plus Two (+2) programs in Management and Education streams.',
     'about.academicP2':
-      'Fully approved by the Ministry of Education, Nepal, and affiliated with the National Examination Board (NEB), our graduates excel consistently in higher secondary examinations and university entrance assessments.',
+      'Fully approved by the Ministry of Education, Nepal, and affiliated with the National Examination Board (NEB), our students excel consistently in national examinations and higher secondary studies.',
     'about.facilitiesTitle': 'Facilities & student support',
     'about.facilitiesP1':
-      'Our school in Dharan-16 features modern science and computer laboratories, a well-stocked library, multimedia classrooms, music and dance studios, cafeteria, and sports grounds.',
+      'Our school features modern science and computer laboratories, a well-stocked library, multimedia classrooms, cafeteria, and student counseling services.',
     'about.facilitiesP2':
-      'We maintain moderate, accessible fee structures alongside merit-based and need-based scholarship schemes to ensure no deserving female student is denied an education.',
-    'about.buildingCap': 'Assembly of students.',
-    'about.scoutCap': 'School scout troop.',
+      'As a government school, we maintain accessible fee structures alongside merit-based and need-based scholarship schemes to ensure every student receives quality education.',
+    'about.buildingCap': 'Morning student assembly.',
+    'about.scoutCap': 'Students learning in classroom.',
     'about.tourCap': 'Educational tour.',
 
     // Teachers / Faculty Page
     'faculty.title': 'Faculty & Administration',
     'faculty.intro':
-      'Meet our experienced educators and leadership team in Dharan, Sunsari, who guide our students with dedication and care.',
+      'Meet our experienced educators and leadership team led by Principal Khem Chandra Subedi in Dharan 17, Railway, Sunsari.',
     'faculty.memorialHeading': 'Former Teachers & Staff',
     'faculty.memorialBlurb':
       'Honoring our former teachers, leadership, and staff members who contributed to the school\'s legacy.',
@@ -95,7 +95,7 @@ export const translations = {
     // Contact Page
     'contact.title': 'Contact Us',
     'contact.intro':
-      'Have questions about admissions for +2 Management, +2 Education, or school enrollment? Reach out to our administrative office in Dharan-16, Sunsari.',
+      'Have questions about admissions for +2 Management, +2 Education, or school enrollment? Reach out to our administrative office in Dharan 17, Railway, Sunsari.',
     'contact.formHeading': 'Send a message to administration',
     'contact.nameLabel': 'Your name *',
     'contact.emailLabel': 'Your email *',
@@ -108,7 +108,7 @@ export const translations = {
 
     // Footer
     'footer.rights': 'All rights reserved.',
-    'footer.tagline': 'Model All-Girls Secondary School · Dharan-16, Sunsari, Nepal',
+    'footer.tagline': 'Government Secondary School · Dharan 17, Railway, Sunsari, Nepal',
     'footer.map': 'Location Map',
   },
 
@@ -122,16 +122,16 @@ export const translations = {
     'nav.langToggle': 'English',
 
     // Site Identity
-    'site.name': 'श्री शारदा बालिका नमुना माध्यमिक विद्यालय',
-    'site.headerName': '<span class="brand-name">श्री शारदा बालिका नमुना</span><span class="brand-sub">माध्यमिक विद्यालय</span>',
-    'site.nepaliName': 'श्री शारदा बालिका नमुना माध्यमिक विद्यालय',
-    'site.location': 'धरान-१६, सुनसरी, नेपाल',
+    'site.name': 'श्री पञ्चकन्या माध्यमिक विद्यालय',
+    'site.headerName': '<span class="brand-name">श्री पञ्चकन्या</span><span class="brand-sub">माध्यमिक विद्यालय</span>',
+    'site.nepaliName': 'श्री पञ्चकन्या माध्यमिक विद्यालय',
+    'site.location': 'धरान-१७, रेल्वे, सुनसरी, नेपाल',
 
     // Hero Section
-    'hero.badge': 'नमुना बालिका माध्यमिक विद्यालय · धरान-१६, सुनसरी',
-    'hero.headline': 'सन् १९४८ (वि.सं. २००५) देखि महिला सशक्तिकरणमा समर्पित',
+    'hero.badge': 'सरकारी माध्यमिक विद्यालय · धरान-१७, रेल्वे, सुनसरी',
+    'hero.headline': 'वि.सं. २०३२ देखि विद्यार्थीहरूको उज्ज्वल भविष्य निर्माणमा समर्पित',
     'hero.sub':
-      'श्री शारदा बालिका नमुना माध्यमिक विद्यालय धरान-१६, सुनसरीमा अवस्थित एक उत्कृष्ट सामुदायिक बालिका विद्यालय हो। राष्ट्रिय परीक्षा बोर्ड (NEB) सम्बन्धन प्राप्त तथा शिक्षा मन्त्रालय स्वीकृत यस विद्यालयमा गुणस्तरीय शिक्षा र छात्रवृत्तिको व्यवस्था छ।',
+      'श्री पञ्चकन्या माध्यमिक विद्यालय धरान-१७, रेल्वे, सुनसरीमा अवस्थित एक उत्कृष्ट सरकारी सामुदायिक विद्यालय हो। राष्ट्रिय परीक्षा बोर्ड (NEB) सम्बन्धन प्राप्त तथा शिक्षा मन्त्रालय स्वीकृत यस विद्यालयमा सम्पूर्ण विद्यार्थीहरू (छात्र तथा छात्राहरू) लाई गुणस्तरीय शिक्षा र छात्रवृत्तिको व्यवस्था छ।',
     'hero.btnNotices': 'सूचनाहरू हेर्नुहोस्',
     'hero.btnContact': 'सम्पर्क गर्नुहोस्',
 
@@ -140,7 +140,7 @@ export const translations = {
     'programs.heading': 'उपलब्ध शैक्षिक कार्यक्रमहरू',
     'programs.management.title': '१०+२ व्यवस्थापन',
     'programs.management.level': 'उच्च माध्यमिक (+२)',
-    'programs.management.desc': 'छात्राहरूलाई नेतृत्व, व्यवस्थापकीय दक्षता, लेखा र कम्प्युटर विज्ञान सम्बन्धी व्यावहारिक ज्ञान प्रदान गर्ने कार्यक्रम।',
+    'programs.management.desc': 'विद्यार्थीहरूलाई नेतृत्व, व्यवस्थापकीय दक्षता, लेखा र कम्प्युटर विज्ञान सम्बन्धी व्यावहारिक ज्ञान प्रदान गर्ने कार्यक्रम।',
     'programs.management.tags': 'NEB सम्बन्धन · कम्प्युटर ल्याब · छात्रवृत्ति सुविधा',
     'programs.education.title': '१०+२ शिक्षा',
     'programs.education.level': 'उच्च माध्यमिक (+२)',
@@ -156,7 +156,7 @@ export const translations = {
     'notices.seeAll': 'सबै सूचनाहरू हेर्नुहोस् →',
     'notices.empty': 'हाल कुनै नयाँ सूचना छैन। कृपया पछि पुनः हेर्नुहोस्।',
     'notices.title': 'सूचना तथा समाचारहरू',
-    'notices.intro': 'श्री शारदा बालिका नमुना माध्यमिक विद्यालयका आधिकारिक सूचनाहरू — एस.ई.ई. र १०+२ परीक्षा तालिका, भर्ना सूचना तथा विद्यालयका गतिविधिहरू।',
+    'notices.intro': 'श्री पञ्चकन्या माध्यमिक विद्यालयका आधिकारिक सूचनाहरू — एस.ई.ई. र १०+२ परीक्षा तालिका, भर्ना सूचना तथा विद्यालयका गतिविधिहरू।',
 
     'cat.holiday': 'बिदा',
     'cat.admission': 'भर्ना',
@@ -166,36 +166,36 @@ export const translations = {
     'cat.pinned': '📌 प्रमुख',
 
     // Life at School & Media
-    'video.heading': 'विद्यालय परिसर तथा वरपरको दृश्य',
+    'video.heading': 'विद्यालय परिसर तथा विद्यार्थी गतिविधिहरू',
     'highlights.heading': 'विद्यालय तथा विद्यार्थी गतिविधिहरू',
 
     // About Page
-    'about.title': 'श्री शारदा बालिका नमुना माध्यमिक विद्यालयको परिचय',
+    'about.title': 'श्री पञ्चकन्या माध्यमिक विद्यालयको परिचय',
     'about.intro':
-      'सन् १९४८ (वि.सं. २००५) मा स्थापित श्री शारदा बालिका नमुना माध्यमिक विद्यालय धरान-१६, सुनसरीमा अवस्थित एक ऐतिहासिक सामुदायिक बालिका विद्यालय हो। यो विद्यालय राष्ट्रिय परीक्षा बोर्ड (NEB) बाट सम्बन्धन प्राप्त तथा शिक्षा मन्त्रालयबाट स्वीकृत छ।',
-    'about.legacyTitle': 'हाम्रो इतिहास र स्थापना',
+      'वि.सं. २०३२ (सन् १९७५) मा स्थापित श्री पञ्चकन्या माध्यमिक विद्यालय धरान-१७, रेल्वे, सुनसरीमा अवस्थित एक ऐतिहासिक सरकारी सामुदायिक विद्यालय हो। प्रधानाध्यापक खेम चन्द्र सुवेदीको नेतृत्वमा सञ्चालित यो विद्यालय राष्ट्रिय परीक्षा बोर्ड (NEB) बाट सम्बन्धन प्राप्त तथा शिक्षा मन्त्रालयबाट स्वीकृत छ।',
+    'about.legacyTitle': 'हाम्रो स्थापना र इतिहास',
     'about.legacyP1':
-      'वि.सं. २००५ (सन् १९४८) मा स्थापित यो विद्यालय पूर्वी नेपालकै अग्रणी तथा ऐतिहासिक सामुदायिक बालिका विद्यालय हो।',
+      'वि.सं. २०३२ (सन् १९७५) मा स्थापित यो विद्यालय धरान-१७, रेल्वे, सुनसरीमा अवस्थित अग्रणी सरकारी सामुदायिक विद्यालय हो।',
     'about.legacyP2':
-      'महिला शिक्षामा पूर्ण रूपमा समर्पित यस विद्यालयमा छात्रा मात्र अध्ययन गर्दछन्। गुणस्तरीय तथा सर्वसुलभ शिक्षा प्रदान गरी छात्राहरूलाई सशक्त बनाउनु हाम्रो मुख्य ध्येय हो।',
+      'यस विद्यालयमा सम्पूर्ण विद्यार्थीहरू (छात्र तथा छात्राहरू / विद्यार्थीहरू) ले अध्ययन गर्दछन्। गुणस्तरीय तथा सर्वसुलभ शिक्षा प्रदान गरी विद्यार्थीहरूलाई सशक्त बनाउनु हाम्रो मुख्य ध्येय हो।',
     'about.academicTitle': 'शैक्षिक कार्यक्रम तथा सम्बन्धन',
     'about.academicP1':
       'विद्यालयमा प्रारम्भिक बाल विकास (ECD) देखि कक्षा १० सम्म र उच्च माध्यमिक तहमा १०+२ व्यवस्थापन र शिक्षा संकाय सञ्चालित छन्।',
     'about.academicP2':
-      'नेपाल सरकार शिक्षा मन्त्रालयबाट स्वीकृत तथा राष्ट्रिय परीक्षा बोर्ड (NEB) सँग सम्बद्ध यस विद्यालयका छात्राहरूले परीक्षामा निरन्तर उत्कृष्ट नतिजा हासिल गर्दै आएका छन्।',
+      'नेपाल सरकार शिक्षा मन्त्रालयबाट स्वीकृत तथा राष्ट्रिय परीक्षा बोर्ड (NEB) सँग सम्बद्ध यस विद्यालयका विद्यार्थीहरूले परीक्षामा निरन्तर उत्कृष्ट नतिजा हासिल गर्दै आएका छन्।',
     'about.facilitiesTitle': 'भौतिक पूर्वाधार तथा सुविधाहरू',
     'about.facilitiesP1':
-      'धरान-१६ स्थित विद्यालयमा आधुनिक विज्ञान प्रयोगशाला, कम्प्युटर ल्याब, समृद्ध पुस्तकालय, मल्टिमिडिया कक्षा, नृत्य तथा संगीत कक्ष, क्यान्टिन र खेल मैदान उपलब्ध छन्।',
+      'धरान-१७, रेल्वे स्थित विद्यालयमा आधुनिक विज्ञान प्रयोगशाला, कम्प्युटर ल्याब, समृद्ध पुस्तकालय, मल्टिमिडिया कक्षा र क्यान्टिन उपलब्ध छन्।',
     'about.facilitiesP2':
-      'सुलभ शुल्क संरचनाका साथै जेहेन्दार तथा विपन्न छात्राहरूका लागि विभिन्न छात्रवृत्तिको व्यवस्था गरिएको छ।',
+      'सरकारी विद्यालय भएकाले सुलभ शुल्क संरचनाका साथै जेहेन्दार तथा विपन्न विद्यार्थीहरूका लागि विभिन्न छात्रवृत्तिको व्यवस्था गरिएको छ।',
     'about.buildingCap': 'विद्यार्थीहरूको प्रार्थना सभा।',
-    'about.scoutCap': 'विद्यालय स्काउट टोली।',
+    'about.scoutCap': 'कक्षाकोठामा अध्ययनरत विद्यार्थीहरू।',
     'about.tourCap': 'शैक्षिक भ्रमण।',
 
     // Teachers / Faculty Page
     'faculty.title': 'शिक्षक तथा प्रशासनिक टोली',
     'faculty.intro':
-      'धरान, सुनसरीमा अवस्थित हाम्रा अनुभवी, समर्पित शिक्षक तथा प्रशासकहरूसँग परिचय गर्नुहोस्।',
+      'धरान-१७, रेल्वे, सुनसरीमा प्रधानाध्यापक खेम चन्द्र सुवेदीको नेतृत्वमा रहेका हाम्रा अनुभवी, समर्पित शिक्षक तथा प्रशासकहरूसँग परिचय गर्नुहोस्।',
     'faculty.memorialHeading': 'पूर्व शिक्षक तथा कर्मचारी वर्ग',
     'faculty.memorialBlurb':
       'विद्यालयको स्थापना, विकास र मार्गदर्शनमा अमूल्य योगदान पुर्याउनुहुने पूर्व संस्थापक, शिक्षक तथा कर्मचारीहरूप्रति उच्च सम्मान।',
@@ -203,7 +203,7 @@ export const translations = {
     // Contact Page
     'contact.title': 'सम्पर्क गर्नुहोस्',
     'contact.intro':
-      '१०+२ व्यवस्थापन, शिक्षा संकाय वा विद्यालय भर्ना सम्बन्धी कुनै जिज्ञासा भएमा धरान-१६ स्थित हाम्रो प्रशासनिक शाखामा सम्पर्क गर्नुहोस्।',
+      '१०+२ व्यवस्थापन, शिक्षा संकाय वा विद्यालय भर्ना सम्बन्धी कुनै जिज्ञासा भएमा धरान-१७, रेल्वे स्थित हाम्रो प्रशासनिक शाखामा सम्पर्क गर्नुहोस्।',
     'contact.formHeading': 'प्रशासन शाखालाई सन्देश पठाउनुहोस्',
     'contact.nameLabel': 'तपाईंको नाम *',
     'contact.emailLabel': 'तपाईंको इमेल *',
@@ -216,7 +216,7 @@ export const translations = {
 
     // Footer
     'footer.rights': 'सर्वाधिकार सुरक्षित।',
-    'footer.tagline': 'नमुना बालिका माध्यमिक विद्यालय · धरान-१६, सुनसरी, नेपाल',
+    'footer.tagline': 'सरकारी माध्यमिक विद्यालय · धरान-१७, रेल्वे, सुनसरी, नेपाल',
     'footer.map': 'स्थान नक्शा',
   },
 } as const;
@@ -232,10 +232,11 @@ export const i18nInitScript = `
   const dict = ${JSON.stringify(translations)};
   
   function getLang() {
-    return localStorage.getItem('balika_lang') || 'ne';
+    return localStorage.getItem('panchakanya_lang') || localStorage.getItem('balika_lang') || 'ne';
   }
 
   function setLang(lang) {
+    localStorage.setItem('panchakanya_lang', lang);
     localStorage.setItem('balika_lang', lang);
     document.documentElement.lang = lang;
     updatePageText(lang);
@@ -272,11 +273,12 @@ export const i18nInitScript = `
   }
 
   // Expose toggle function globally
-  window.toggleBalikaLanguage = function() {
+  window.togglePanchakanyaLanguage = function() {
     const current = getLang();
     const next = current === 'en' ? 'ne' : 'en';
     setLang(next);
   };
+  window.toggleBalikaLanguage = window.togglePanchakanyaLanguage;
 
   function applyLang() {
     const lang = getLang();

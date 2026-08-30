@@ -11,7 +11,7 @@ const css = readFileSync(new URL('../src/styles/tokens.css', import.meta.url), '
 const tokens = {};
 for (const m of css.matchAll(/--color-([a-z]+):\s*#([0-9a-fA-F]{6})/g)) tokens[m[1]] = m[2];
 
-const required = ['cream', 'ebony', 'coffee', 'olive', 'camel', 'white'];
+const required = ['cream', 'navy', 'royal', 'amber', 'gold', 'white'];
 for (const t of required) {
   if (!tokens[t]) {
     console.error(`Missing token --color-${t} in tokens.css`);
@@ -34,11 +34,11 @@ const ratio = (a, b) => {
 
 // Approved pairings (text on background) — AA normal text, ≥ 4.5:1
 const pairs = [
-  ['ebony', 'cream', 'Body text on page background'],
-  ['cream', 'ebony', 'Text on dark sections / footer'],
-  ['white', 'coffee', 'White text on primary CTA (Coffee Bean)'],
-  ['white', 'olive', 'White text on secondary button (Dusty Olive)'],
-  ['coffee', 'cream', 'Text links on page background'],
+  ['navy', 'cream', 'Navy text on page background'],
+  ['white', 'navy', 'White text on dark navy header & footer'],
+  ['white', 'royal', 'White text on primary CTA (Royal Navy)'],
+  ['white', 'amber', 'White text on secondary button (Golden Amber)'],
+  ['royal', 'cream', 'Royal Navy links on page background'],
 ];
 
 const AA = 4.5;
@@ -52,10 +52,7 @@ for (const [fg, bg, label] of pairs) {
   );
 }
 console.log(
-  `\n  info  ${ratio(tokens.olive, tokens.cream).toFixed(2)}:1  Dusty Olive TEXT on cream — below AA by design; olive is fill-only`
-);
-console.log(
-  `  info  ${ratio(tokens.camel, tokens.cream).toFixed(2)}:1  Camel on cream — decorative only, never text\n`
+  `\n  info  ${ratio(tokens.gold, tokens.navy).toFixed(2)}:1  School Gold on Navy header — active accents & badges`
 );
 
 if (failed) {
