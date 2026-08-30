@@ -9,7 +9,7 @@ media_folder: "src/assets/uploads"
 public_folder: "/src/assets/uploads"
 
 logo:
-  src: https://panchakanya.github.io/admin/panchakanya.jpg
+  src: https://panchakanya.github.io/admin/logo.png
   show_in_header: true
 
 app_title: Panchakanya School CMS
