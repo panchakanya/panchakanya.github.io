@@ -6,7 +6,7 @@ subject: Math
 phone: '9842289204'
 address: Dharan 11
 dob: ''
-bloodGroup: ''
+bloodGroup: A+
 arrived: ''
 memorial: false
 order: 5
