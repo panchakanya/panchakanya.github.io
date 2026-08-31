@@ -1,6 +1,6 @@
 ---
 name: Kedar Bharati
-designation: Incharge Enhlish Medium
+designation: In-charge English Medium
 photo: ../../assets/teachers/pasted-image-1788105213473.png
 subject: English
 phone: '9842288993'
