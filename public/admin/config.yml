@@ -23,7 +23,7 @@ collections:
     media_folder: "/src/assets/notices"
     public_folder: "../../assets/notices"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.category}}-{{hour}}{{minute}}"
     fields:
       - { name: title, label: "Title", widget: string }
       - {
