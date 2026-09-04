@@ -9,10 +9,9 @@ import teachersImage from '../assets/highlights/teachers-visit.jpg';
 
 const { home } = site.copy;
 
-// Featured / pinned notices for the homepage
+// Latest 3 notices for the homepage in order of recency
 const allNotices = await getCollection('notices');
-const featured = allNotices
-  .filter((e) => e.data.featured || e.data.pinned)
+const latestNotices = allNotices
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0, 3);
 
@@ -101,12 +100,12 @@ const programI18nKeys = [
   </section>
 
   {
-    featured.length > 0 && (
+    latestNotices.length > 0 && (
       <section class="section">
         <div class="container">
           <h2 data-i18n="notices.heading">{home.featuredHeading}</h2>
           <ul class="featured-grid">
-            {featured.map((e) => (
+            {latestNotices.map((e) => (
               <li>
                 <NoticeCard
                   title={e.data.title}

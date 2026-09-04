@@ -42,13 +42,6 @@ collections:
           field: { name: image, label: "Photo", widget: image },
         }
       - {
-          name: featured,
-          label: "Feature on homepage",
-          widget: boolean,
-          default: false,
-          required: false,
-        }
-      - {
           name: pinned,
           label: "Pin Notice",
           widget: boolean,
